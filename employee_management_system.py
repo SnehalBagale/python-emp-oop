@@ -59,7 +59,6 @@ class Intern(Employee):
         print(f"Stipend: ${self._monthly_stipend:.2f}")
         print(f"Total Salary: ${self.calculate_salary():.2f}\n")
 
-# Example Usage
 perm_emp = PermanentEmployee("2001", "Rahul", "Development", 75000, 7000)
 contract_emp = ContractEmployee("2002", "Neha", "Marketing", 60, 170)
 intern_emp = Intern("2045", "Amit", "Accounts", 2000)
